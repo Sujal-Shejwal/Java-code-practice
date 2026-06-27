@@ -7,7 +7,7 @@ public class ifelse2 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter temperature: ");
+        System.out.println("Enter temperature: ");
 
 
         double temp = sc.nextDouble();

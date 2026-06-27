@@ -30,5 +30,5 @@ public class switchCase {
          default :
              System.out.println("Invalid enter");
      }
-  }
+   }
  }
