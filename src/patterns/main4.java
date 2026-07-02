@@ -1,7 +1,7 @@
 // Characters pattern
 
 import java.util.Scanner;
-public class main3 {
+public class main4 {
     public static void main(String[] args) {
         int n=5;
         char ch = 'A';
