@@ -1,5 +1,4 @@
 // parameters VS Arguments.
-
 import java.util.*;
 public class fun2 {
     public static void add(int a ,int b) {

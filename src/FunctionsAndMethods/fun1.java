@@ -1,5 +1,4 @@
 // function with parameters
-
 import java.util.*;
 public class fun1 {
     public static void print(String name) {

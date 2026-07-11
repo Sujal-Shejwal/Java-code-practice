@@ -5,7 +5,6 @@ public class fun3 {
         int product = a * b;
         return product;
     }
-
     public static void main(String[] args) {
         int a = 3;
         int b = 5;
