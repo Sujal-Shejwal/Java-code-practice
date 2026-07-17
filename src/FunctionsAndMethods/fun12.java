@@ -1,30 +1,29 @@
-// find binomial coefficient
+// WAP in java methor to compute the avg of three numbers
 
 import java.util.Scanner;
+
 public class fun12 {
-    // Method to calculate factorial
-    public static int factorial(int n) {
-        int fact = 1;
-        for (int i = 1; i <= n; i++) {
-            fact = fact * i;
-        }
-        return fact;
+
+    public static int avg(int a, int b, int c) {
+        return (a + b + c) / 3;
     }
-    // Method to calculate Binomial Coefficient
-    public static int binCoeff(int n, int r) {
-        int fact_n = factorial(n);
-        int fact_r = factorial(r);
-        int fact_nmr = factorial(n - r);
-        return fact_n / (fact_r * fact_nmr);
-    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter n: ");
-        int n = sc.nextInt();
-        System.out.print("Enter r: ");
-        int r = sc.nextInt();
-        // Correct method call
-        System.out.println("Binomial Coefficient = " + binCoeff(n, r));
+
+        System.out.print("Enter first number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num2 = sc.nextInt();
+
+        System.out.print("Enter third number: ");
+        int num3 = sc.nextInt();
+
+        int average = avg(num1, num2, num3);
+
+        System.out.println("Average = " + average);
+
         sc.close();
     }
 }
