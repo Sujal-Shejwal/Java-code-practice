@@ -1,6 +1,4 @@
 // Counting sort
-
-
 import java.util.*;
 public class Sor4 {
     public static void countingSort(int arr[]) {
@@ -28,7 +26,7 @@ public class Sor4 {
         System.out.println();
     }
     public static void main(String args[]) {
-        int arr[] = {5, 4, 1, 3, 2};
+        int arr[] = {10,8,6,4,2};
         countingSort(arr);
         printArr(arr);
     }
